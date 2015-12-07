@@ -1,19 +1,20 @@
 # ScreenshareExtensionFirefox
 A Firefox Add-on to enable screensharing on particular domains
 
-This Add-on modifies the Firefox media.getusermedia.screensharing.allowed_domains and media.getusermedia.screensharing.enabled "about:config" values to support screensharing.
+This Add-on modifies the Firefox media.getusermedia.screensharing.allowed_domains and media.getusermedia.screensharing.enabled values in Firefox's "about:config" to support screensharing.
 
 
 # Configuration
 
-** Open `install.rdf`**
+Open `install.rdf`
 
 * line 4: modify the id attribute
 * line 6: modify the name attribute
 * line 10: modify the creator attribute
 * line 11: modify the homepageURL attribute
 
-** Open `bootstrap.js`**
+
+Open `bootstrap.js`
 
 * line 3-8: set all domains allowed to use this extension
 
@@ -21,6 +22,9 @@ This Add-on modifies the Firefox media.getusermedia.screensharing.allowed_domain
 
 * zip the extension source files (and not the folder that contains files !).
 * rename your file extension.zip into extension.xpi
+
+** Modify the two icon pngs if desired **
+
 
 
 # Installation / Testing
